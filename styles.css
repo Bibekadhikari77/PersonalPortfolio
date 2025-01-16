@@ -492,6 +492,18 @@ body {
     color: goldenrod;
     transform: translateY(-2px);
 }
+/* change in email */
+.email-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.email-link:hover {
+    color: goldenrod; 
+    text-decoration: underline;
+}
+
 /* For tablets and smaller devices */
 @media (max-width: 768px) {
     .header {
